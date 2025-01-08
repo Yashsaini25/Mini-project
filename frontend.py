@@ -8,7 +8,7 @@ from io import StringIO
 st.set_page_config(page_title="💲")
 
 # Backend URL (FastAPI backend running on Render)
-backend_url = "http://127.0.0.1:8000"
+backend_url = "https://streamlit.io/cloud"
 
 # Set up a simple gradient background for the app
 st.markdown(
